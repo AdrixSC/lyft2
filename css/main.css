@@ -6,10 +6,10 @@
 }
 
 .logo-white-splash {
-    width: 100%;
     height: 30%;
     padding-top: 400px;
     padding-bottom: 400px;
+    width: 100%;
 }
 
 
@@ -23,17 +23,15 @@
 }
 
 .logo-white {
-    width: 100%;
     height: 30%;
+    width: 100%;
 }
 
 .logo-pink {
-    width: 100%;
     height: 30%;
-    /*margin-top: 100px;
-    margin-bottom: 280px;*/
     padding-bottom: 20%;
     padding-top: 40%;
+    width: 100%;
 }
 
 .btn {
@@ -53,13 +51,13 @@
 }
 
 .flag-mex {
-    width: 50%;
     margin-left: 10px;
+    width: 50%;
 }
 
 .sort {
-    margin-left: 30px;
     color: rgb(39, 84, 231);
+    margin-left: 30px;
 }
 
 .btn-next {
@@ -87,9 +85,9 @@
 }
 
 .btn-next:hover {
-    color: white;
     background-color: #f30082;
     border: none;
+    color: white;
 }
 
 
@@ -125,15 +123,15 @@
 /*Estilos para page registry*/
 
 .logo-white-registry {
-    width: 50%;
     height: 30%;
     padding-top: 400px;
     padding-bottom: 200px;
     text-align: center;
+    width: 50%;
 }
 
 .check {
-    width: 100%;
     height: 100%;
     padding-bottom: 200px;
+    width: 100%;
 }
