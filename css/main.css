@@ -120,3 +120,20 @@
 .form-check>label>span {
     color: blue;
 }
+
+
+/*Estilos para page registry*/
+
+.logo-white-registry {
+    width: 50%;
+    height: 30%;
+    padding-top: 400px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+
+.check {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 200px;
+}
