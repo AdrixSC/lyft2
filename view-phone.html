@@ -1,8 +1,10 @@
-<!DOCTYPE html>
+<!DOCTYPE html >
+
 <html>
 
 <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
     <title>Lyft App</title>
@@ -11,19 +13,24 @@
 <body>
     <section class="container fluid">
         <div class="row">
-            <div class="background col-12">
-                <div class="row">
-                    <img class="col-3 offset-4 logo-white" src="assets/images/logo-white.png" alt="logo-white">
-                </div>
-                <div class="row">
-                    <img class="12 logo-pink" src="assets/images/logo-pink.png" alt="logo-pink">
-                </div>
-                <div class="row">
-                    <button type="button" class="btn btn-outline-dark col-4 offset-2">LOG IN</button>
-                    <button type="button" class="btn btn-outline-dark col-4">SING UP</button>
-                </div>
+            <div class="col-1 offset-3">
+                <i class="fa fa-chevron-left fa-3x" aria-hidden="true"></i>
+            </div>
+            <div class="col-6">
+                <h1>Sing Up</h1>
+                <p>Join now for free ride credit</p>
+                <hr>
             </div>
         </div>
+        <div class="row">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-search" aria-hidden="true"></i></span>
+                </div>
+                <input type="text" class="form-control" placeholder="¿Qué tipo de comida buscas?" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+        </div>
+        <div class="row"></div>
 
 
     </section>
