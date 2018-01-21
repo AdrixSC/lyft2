@@ -1,3 +1,20 @@
+/*Estilos para el splash*/
+
+.background-splash {
+    background: linear-gradient(#5f0060, #f30082);
+    height: auto;
+}
+
+.logo-white-splash {
+    width: 100%;
+    height: 30%;
+    padding-top: 400px;
+    padding-bottom: 400px;
+}
+
+
+/*Estilos para el index*/
+
 .background {
     background-image: url("../assets/images/fondo-lyft.jpg");
     background-repeat: no-repeat;
@@ -27,3 +44,53 @@
 .btn-outline-dark {
     border-color: white
 }
+
+
+/*Estilos para la page view phone*/
+
+.arrow {
+    color: #f30082;
+}
+
+.flag-mex {
+    width: 50%;
+    margin-left: 10px;
+}
+
+.sort {
+    margin-left: 30px;
+    color: rgb(39, 84, 231);
+}
+
+.btn-next {
+    background-color: grey;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.display {
+    display: block;
+    text-align: center;
+}
+
+.display>p {
+    font-size: 20px;
+}
+
+.sing {
+    text-align: center;
+}
+
+.m-top {
+    margin-top: 20px;
+}
+
+.btn-next:hover {
+    color: white;
+    background-color: #f30082;
+    border: none;
+}
+
+
+/*Estilo para page verify-phone*/
