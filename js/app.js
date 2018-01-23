@@ -2,6 +2,18 @@ $("#btn-sing-up").click(function() {
     document.location.href = "view-phone.html";
 });
 
+$("#btn-next").click(function() {
+    document.location.href = "verify-phone.html";
+});
+
+$("#btn-next-2").click(function() {
+    document.location.href = "form.html";
+});
+
+$("#btn-next-3").click(function() {
+    document.location.href = "registry.html";
+});
+
 //Llamando a nuestros elementos de html que usaremos
 var $phoneInput = $("#phone-input");
 var $buttonNext = $("#btn-next");
@@ -26,15 +38,3 @@ var validatePhone = function() {
         $("#btn-next").prop("disabled", true);
     }
 };*/
-
-$("#btn-next").click(function() {
-  document.location.href = "verify-phone.html";
-});
-
-$("#btn-next-2").click(function() {
-  document.location.href = "form.html";
-});
-
-$("#return-2").click(function() {
-  document.location.href = "verify-phone.html";
-});
