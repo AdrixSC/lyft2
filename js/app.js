@@ -7,8 +7,8 @@ var $phoneInput = $("#phone-input");
 var $buttonNext = $("#btn-next");
 
 //Funciones para validar que el usuario ingrese datos correctos para activar el botón next
-var loadPage = function() {
-    $phoneInput.keyup(validatePhone);
+/*var loadPage = function() {
+    //$phoneInput.keyup(validatePhone);
     $("#btn-next").submit(addPhone);
 };
 
@@ -16,14 +16,25 @@ var loadPage = function() {
 var addPhone = function(e) {
     e.preventDefault();
     var phone = $phoneInput.val();
-
     $("#phoneInput")[0].reset();
 };
 
 var validatePhone = function() {
-    if ($(this).val().trim().length > 0) {
-        $("#btn-next").removeAttr("disabled");
+    if ($("#phone-input").val().trim().length > 0) {
+        $("#btn-next").prop("disabled", false);
     } else {
-        $("#btn-next").attr("disabled", true);
+        $("#btn-next").prop("disabled", true);
     }
-};
+};*/
+
+$("#btn-next").click(function() {
+  document.location.href = "verify-phone.html";
+});
+
+$("#btn-next-2").click(function() {
+  document.location.href = "form.html";
+});
+
+$("#return-2").click(function() {
+  document.location.href = "verify-phone.html";
+});
