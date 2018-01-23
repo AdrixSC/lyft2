@@ -17,10 +17,11 @@ Desarrolla una web-app que replique el sitio de Lyft, en este reto deberás cump
 3. Dar estilos necesarios.
 
 //JS
-1. Para la función del splash se crea una vista con clase hidden que tendrá un contador de tiempo (2 a 5 segundos), y cuando pase el tiempo se debe ocultar y mostrar la vista principal.
-2. En la vista principal tendrá un form y dentro 1 select para que el usuario elija el país, y 1 input para que el usuario ingrese su teléfono, y un botón para enviar datos.
-3. Validar el input del teléfono para habilitar el botoón.
-4. Darle el evento click al botón y que éste envie un alert con un código aleatorio y redirecciones a una nueva vista (esto pasará al cerrar el alert o desde el botón???)
-5. La nueva vista tendrá un input para ingresar el codigo lanzado y un botón para enviar ese dato, el cual direccionará a una nueva vista.
-6. La siguiente nueva vista tendrá 3 inputs, para agregar datos del usaurio, su nombre, apellido y correo, y un checkbox con leyenda para que acepte términos y condiciones, y un botón que va a direccionar a la última vista.
+1. Para la función del splash se crea una vista independiente que tendrá un contador de tiempo con setTimeOut (3500 milisegundos), y cuando pase el tiempo establecido debe redireccionar a la la vista principal.
+2. En la vista principal se mostrará una imagen de background con los logos principales y dos botones, enfocándonos en el boton de singup, al cual se le asignará un evento click para que direccione a otra view.
+3. La siguiente vista tendrá un dropdown para que el usuario elija el país, y un input para que ingrese su teléfono, y un botón para enviar datos, el cual tendrá la clase disabled para deshabilitarlo hasta que el usaurio ingrese los datos solicitados del input, los cuales serán validados para que sólo se ingresen números y sean 10 dígitos, estableciendo el atributo pattern en el html. Al darle click al botón, redireccionará a una nueva view y enviará un alert con un código que deberá ingresar en la siguiente view.
+4. El código que se va a enviar al usuario, debe contener 3 números aleatorios, para esto usaremos el método Math.floor dentro de una función, y ese número se guardará en una variable, se creará otra función que llame a la primera y la cual por medio de un for se ejecutará 3 veces, y se enviará un alert con esos números que arrojarán ambas funciones.
+5. En la nueva view tendremos 3 campos vacíos que deberán llenarse con el código que se envió por medio del alert, y al ingresarlos se habilitará el boton de next, y también tendrá la opción de volver a cargar un nuevo código al usuario, esto se hará únicamente llamando la función en el evento de este nuevo botón.
+6. La siguiente vista tendrá un form con 3 inputs, para agregar datos del usaurio, su nombre, apellido y correo, y un checkbox con leyenda para que acepte términos y condiciones, y un botón que va a direccionar a la última vista. Todos los datos anteriores se validarán de la misma manera que en los anteriores.
 7. La última vista sólo tendrá un mensaje que indique que su registro ha sido exitoso.
+8. Agregar la función de que el icono < tenga la opción de regresar a la vista anterior, esto por medio de su href, en el cual le daremos la liga a dónde debe direccionar cada uno.
