@@ -25,7 +25,7 @@ var $drop = $(".dropdown");
 
 
 //Funciones para validar que el usuario ingrese datos correctos para activar el botón next
-/*var loadPage = function() {
+var loadPage = function() {
     $phoneInput.keyup(validatePhone);
     $(".dropdown").submit(addPhone);
 
@@ -33,7 +33,7 @@ var $drop = $(".dropdown");
 
 var validatePhone = function() {
     if ($(this).val().trim().length > 0) {
-        $("#btn-next").removeAttr("disabled");
+        $("#btn-next").attr("disabled", false);
     } else {
         $("#btn-next").attr("disabled", true);
     }
@@ -65,4 +65,4 @@ function codeRandom() {
 $buttonNext.click(codeRandom);
 $buttonResend.click(codeRandom);
 
-$(document).ready(loadPage);*/
+$(document).ready(loadPage);
