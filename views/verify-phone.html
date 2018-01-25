@@ -26,7 +26,7 @@
         <div class="form-group row code-phone">
             <label for="inputCode" class="col-2 offset-4 lab">LAB-</label>
             <div class="col-6">
-                <input type="code" class="form-code" id="codePhone" placeholder="_ _ _">
+                <input type="code" class="form-code" autocomplete="off" type="code" id="codePhone" aria-label="Code" placeholder="_ _ _" pattern="[0-9]{3}" required>
             </div>
         </div>
         </form>
@@ -36,7 +36,7 @@
         </div>
         <div class="row">
             <div class="display col-6 offset-3">
-                <button id="btn-next-2" type="button" class="btn btn-primary btn-lg btn-next">NEXT</button>
+                <button id="btn-next-2" type="button" class="btn btn-primary btn-lg btn-next" disabled>NEXT</button>
             </div>
         </div>
 
